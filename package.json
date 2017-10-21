@@ -1,0 +1,20 @@
+{
+  "name": "benchmarkApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^2.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "execute": "npm run test && node benchmark"
+  },
+  "keywords": [],
+  "author": "Krzysztof Safjanowski <krzysztof@safjanowski.pl> (https://github.com/safjanowski)",
+  "license": "MIT"
+}
